@@ -10,7 +10,7 @@ export async function GET(req) {
   }
 
   await connectDB();
-  const team = await Team.findOne({ teamName: session.user.name }).select('teamName phone1 phone2 membersCount codeLetter termsAgreed');
+  const team = await Team.findOne({ teamName: session.user.name }).select('teamName phone1 phone2 membersCount codeLetter termsAgreed password');
   if (!team) {
     return new Response(JSON.stringify({ message: 'Team not found' }), { status: 404 });
   }

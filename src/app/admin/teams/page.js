@@ -118,6 +118,7 @@ export default function Teams() {
                     <th className="py-3 px-4 text-white/70 font-semibold">Members</th>
                     <th className="py-3 px-4 text-white/70 font-semibold">Code Letter</th>
                     <th className="py-3 px-4 text-white/70 font-semibold">Terms Agreed</th>
+                    <th className="py-3 px-4 text-white/70 font-semibold">Password</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -138,6 +139,7 @@ export default function Teams() {
                           <span className="text-red-400">No</span>
                         )}
                       </td>
+                      <td className="py-3 px-4 text-white/70">{team.password}</td>
                     </tr>
                   ))}
                 </tbody>
