@@ -141,8 +141,11 @@ export default function Dashboard() {
             
             <div className="bg-gray-50 rounded-lg p-4 mb-6 max-h-32 overflow-y-auto">
               <p className="text-sm text-gray-700">
-                By proceeding, you agree to participate in the competition according to the rules and regulations. 
-                You understand that all decisions made during the lot process are final and binding.
+               ആലത്തൂർപടി ദർസ് സ്റ്റുഡന്റസ് അസോസിയേഷൻ സംഘടിപ്പിക്കുന്ന ബുർദ ഖവ്വാലി മത്സരത്തിൽ രജിസ്റ്റർ ചെയ്തതിന് നന്ദി
+
+മത്സരത്തിന്റെ നിയമാവലി വായിച്ചു മനസ്സിലാക്കിയിട്ടുണ്ടാവുമെന്ന് കരുതുന്നു.  
+
+ മത്സരവുമായി ബന്ധപ്പെട്ട കാര്യങ്ങളിൽ ജൂറിയുടെയും സംഘാടക സമിതിയുടെയും  തീരുമാനം അന്തിമമായിരിക്കുന്നതാണ്
               </p>
             </div>
 
